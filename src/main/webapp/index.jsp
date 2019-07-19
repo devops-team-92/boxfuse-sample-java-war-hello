@@ -6,7 +6,7 @@
 <h1>Congratulations!</h1>
 <img src="boxfuse.png">
 
-<h2>You have successfully deploy the new Code</h2>
+<h2>You have successfully deploy the new Code V2</h2>
 
 
 
