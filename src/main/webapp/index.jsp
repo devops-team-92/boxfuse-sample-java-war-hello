@@ -6,15 +6,11 @@
 <h1>Congratulations!</h1>
 <img src="boxfuse.png">
 
-<h2>You have successfully launched your Instance!</h2>
+<h2>You have successfully deploy the new Code</h2>
 
-<p>This Instance is running on <strong><%= System.getenv("BOXFUSE_PLATFORM_NAME") %>
-</strong> and has the id <strong><%= System.getenv("BOXFUSE_INSTANCE_ID") %>
-</strong>.</p>
 
-<p>It is based on the Image <strong><%= System.getenv("BOXFUSE_IMAGE_COORDINATES")%>
-</strong> generated from <strong><%= System.getenv("BOXFUSE_PAYLOAD_NAME")%>
-</strong></p>
+
+
 
 <% if("virtualbox".equals(System.getenv("BOXFUSE_PLATFORM_ID"))) { %>
 <h2 style="margin-top: 80px">Next steps</h2>
